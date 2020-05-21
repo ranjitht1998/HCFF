@@ -1,0 +1,12 @@
+package model;
+
+public class information {
+		private int AadharNo;
+		private int PanNo;
+		private String MailId;
+		
+		public information() {};
+
+
+		
+}

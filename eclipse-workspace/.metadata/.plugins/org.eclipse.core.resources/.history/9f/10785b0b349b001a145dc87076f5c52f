@@ -1,0 +1,13 @@
+package utility;
+
+public class AdminValidation {
+	 
+	public boolean Validate(String username,String password,String confirmpassword){
+		if(username.contentEquals("admin") &&password.contentEquals("admin"))
+		{
+			return true;
+		}
+		else
+			return false;
+	}
+}

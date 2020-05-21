@@ -1,0 +1,33 @@
+package model;
+
+public class information {
+		private String AadharNo;
+		private String PanNo;
+		private String MailId;
+		public String getAadharNo() {
+			return AadharNo;
+		}
+		public void setAadharNo(String aadharNo) {
+			AadharNo = aadharNo;
+		}
+		public String getPanNo() {
+			return PanNo;
+		}
+		public void setPanNo(String panNo) {
+			PanNo = panNo;
+		}
+		public String getMailId() {
+			return MailId;
+		}
+		public void setMailId(String mailId) {
+			MailId = mailId;
+		}
+		public information(String aadharNo, String panNo, String mailId) {
+			super();
+			AadharNo = aadharNo;
+			PanNo = panNo;
+			MailId = mailId;
+		}
+
+		
+}

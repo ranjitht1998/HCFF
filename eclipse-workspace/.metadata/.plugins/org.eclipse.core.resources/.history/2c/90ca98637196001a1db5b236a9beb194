@@ -1,0 +1,37 @@
+package model;
+
+import java.time.LocalDate;
+
+public class Blog{
+	String title;
+	String Blogdescription;
+	LocalDate postedOn;
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getBlogdescription() {
+		return Blogdescription;
+	}
+	public void setBlogdescription(String blogdescription) {
+		Blogdescription = blogdescription;
+	}
+	public LocalDate getPostedOn() {
+		return postedOn;
+	}
+	public void setPostedOn(LocalDate postedOn) {
+		this.postedOn = postedOn;
+	}
+	public Blog(String title, String blogdescription, LocalDate postedOn) {
+		super();
+		this.title = title;
+		Blogdescription = blogdescription;
+		this.postedOn = postedOn;
+	}
+	
+	
+	
+	
+}

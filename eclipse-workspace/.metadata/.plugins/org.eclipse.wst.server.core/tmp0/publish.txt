@@ -1,0 +1,11 @@
+#Tomcat publish data
+#Mon May 18 16:02:27 IST 2020
+org.eclipse.jst.jee.server\:lab-java-11-braintest=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lab-java-11-braintest
+org.eclipse.jst.jee.server\:project-builder-blog-newblog=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\project-builder-blog-newblog
+org.eclipse.jst.jee.server\:lab-java-22-gogoa=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lab-java-22-gogoa
+org.eclipse.jst.jee.server\:lab-java-12-flames=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lab-java-12-flames
+org.eclipse.jst.jee.server\:lap-java-gotta_catchem_all=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lap-java-gotta_catchem_all
+org.eclipse.jst.jee.server\:lab-astroquiz=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lab-astroquiz
+org.eclipse.jst.jee.server\:lab-java-astrozone=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\lab-java-astrozone
+org.eclipse.jst.jee.server\:project-builder-blog-registration=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\project-builder-blog-registration
+org.eclipse.jst.jee.server\:project-builder-blog-checkblog=C\:\\apache-tomcat-9.0.34\\wtpwebapps\\project-builder-blog-checkblog

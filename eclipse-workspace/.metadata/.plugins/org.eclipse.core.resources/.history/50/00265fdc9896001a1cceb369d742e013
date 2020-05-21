@@ -1,0 +1,15 @@
+package utility;
+
+import model.*;
+
+public interface OffensiveWordsInterface{
+	checkBlogTitle(Blog blog) {
+		
+	}
+	
+	
+	
+	boolean checkBlogDescription(Blog blog) {
+		
+	}
+}

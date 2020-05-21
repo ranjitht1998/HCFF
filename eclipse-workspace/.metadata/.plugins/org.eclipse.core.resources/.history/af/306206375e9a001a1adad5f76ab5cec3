@@ -1,0 +1,26 @@
+package controller;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+import model.*;
+
+
+public class registeration {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		information info=new information();
+		
+		
+		int aadharNo=Integer.parseInt(br.readLine());
+		int panNo=Integer.parseInt(br.readLine());;
+		String mailId=br.readLine();
+		
+		info.setAadharNo(aadharNo);
+		info.setPanNo(panNo);
+		info.setMailId(mailId);
+}
+}

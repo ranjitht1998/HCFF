@@ -1,0 +1,16 @@
+package service;
+import model.*;
+import java.util.*;
+import controller.*;
+
+
+public class listoperation {
+			
+	static List<information> list=new ArrayList<information>();
+	
+	public List<information> addList(information info){
+				list.add(info);
+				return list;
+			}
+			
+}

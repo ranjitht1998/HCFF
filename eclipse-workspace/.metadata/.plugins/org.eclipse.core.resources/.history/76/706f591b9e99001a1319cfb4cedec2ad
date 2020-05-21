@@ -1,0 +1,47 @@
+package controller;
+import java.util.*;
+
+import model.*;
+
+
+public class registeration {
+
+	private static final boolean String = false;
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		//Signup
+		System.out.println("Enter the below option for singup the account");
+		System.out.println("Enter the username");
+		String username=sc.nextLine();
+		System.out.println("Enter the password");
+		String password=sc.nextLine();
+		
+		
+		Map<String,String> signup=new HashMap<String,String>();
+		{
+			signup.put("useranme","password");
+		}
+		
+		//Login
+		
+		System.out.println("Enter username to Login");
+		String uname=sc.nextLine();
+		String pwd=sc.nextLine();
+		
+		for(Map.Entry<String,String> pair:signup.entrySet())
+		{
+			String key=pair.getKey();
+			if(key.equals(username)) {
+				String value=pair.getValue();
+				if(value.equals(password)) {
+					System.out.println("You have logged in");
+				}
+			}
+		}
+	
+		
+
+}
+}
